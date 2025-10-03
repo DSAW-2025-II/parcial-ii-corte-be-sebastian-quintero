@@ -1,7 +1,7 @@
 #ignorar variables de entorno
 .env.txt
 # ignorar modulos node
-/node_modules
+node_modules/
 # ignorar lineas de codigo en server.js
 // env
 const ADMIN_EMAIL = process.env.ADMIN_EMAIL || 'admin@admin.com';
