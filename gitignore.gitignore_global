@@ -1,6 +1,5 @@
 # ignorar variables de entorno
 .env
-.env.txt
 
 # ignorar módulos de node
 node_modules/
