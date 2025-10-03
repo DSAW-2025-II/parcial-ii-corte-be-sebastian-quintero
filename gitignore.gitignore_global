@@ -1,13 +1,9 @@
-#ignorar variables de entorno
+# ignorar variables de entorno
+.env
 .env.txt
-# ignorar modulos node
-node_modules/
-# ignorar lineas de codigo en server.js
-// env
-const ADMIN_EMAIL = process.env.ADMIN_EMAIL || 'admin@admin.com';
-const ADMIN_PASS  = process.env.ADMIN_PASS  || 'admin';
-const JWT_SECRET  = process.env.JWT_SECRET  || 'secret';
-const JWT_EXPIRES = process.env.JWT_EXPIRES || '1h'; // mínimo 1 hora
-#ignorar package-lock.json
-package-lock.json
 
+# ignorar módulos de node
+node_modules/
+
+# ignorar lockfile
+package-lock.json

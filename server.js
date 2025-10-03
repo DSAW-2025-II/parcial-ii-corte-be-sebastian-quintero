@@ -16,6 +16,7 @@ app.use(cors({
 }));
 
 // env
+require('dotenv').config();
 const ADMIN_EMAIL = process.env.ADMIN_EMAIL || 'admin@admin.com';
 const ADMIN_PASS  = process.env.ADMIN_PASS  || 'admin';
 const JWT_SECRET  = process.env.JWT_SECRET  || 'secret';
